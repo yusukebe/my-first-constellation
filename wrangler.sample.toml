@@ -1,0 +1,12 @@
+name = "image-classifier-worker"
+main = "src/index.ts"
+node_compat = true
+workers_dev = true
+compatibility_date = "2023-05-12"
+
+constellation = [
+    {binding = 'CLASSIFIER', project_id = 'YOUR_PROJECT_ID'},
+]
+
+[vars]
+MODEL_ID = "YOUR_MODEL_ID"

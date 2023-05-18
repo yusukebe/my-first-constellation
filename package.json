@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "dependencies": {
+    "hono": "3.2.0-rc.4"
+  },
+  "devDependencies": {
+    "@cloudflare/constellation": "0.0.7",
+    "@cloudflare/workers-types": "^4.20230511.0",
+    "pngjs": "^7.0.0",
+    "string-to-stream": "^3.0.1",
+    "wrangler": "^3.0.0"
+  }
+}
